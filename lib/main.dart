@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:nearby/Screens/Case_Information.dart';
 import 'package:nearby/Screens/homePage.dart';
 import 'package:nearby/Screens/profilePage.dart';
+import 'package:nearby/Screens/services.dart';
 import 'Screens/Case_Description.dart';
 import 'Screens/Signup_Page.dart';
 import 'Screens/Login_Page.dart';
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CaseDescription(),
+      home: Services(),
       routes: {
         Login.id:(context) => Login(),
         Home.id:(context)=> Home(),
